@@ -1,0 +1,12 @@
+funktion myFunc() {
+    x = 10;
+    y = 20;
+    wenn (x < y) {
+        drucke(x);
+    } sonst {
+        drucke(y);
+    }
+    solange (x < 15) {
+        x = x + 1;
+    }
+}

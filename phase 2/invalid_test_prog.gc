@@ -1,0 +1,7 @@
+funktion myFunc() {
+    x = 10
+    wenn (x < 5) {
+        drucke(x);
+    }
+}
+
