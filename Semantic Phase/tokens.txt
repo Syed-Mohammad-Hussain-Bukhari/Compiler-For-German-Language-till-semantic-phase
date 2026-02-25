@@ -1,0 +1,51 @@
+Parsing started...
+Line 1: FUNKTION
+Line 1: ID -> myFunc
+Line 1: LPAREN
+Line 1: RPAREN
+Line 1: LBRACE
+Line 2: ID -> x
+Line 2: ASSIGN
+Line 2: NUMBER -> 10
+Line 2: SEMICOLON
+Line 3: ID -> y
+Line 3: ASSIGN
+Line 3: NUMBER -> 20
+Line 3: SEMICOLON
+Line 4: WENN
+Line 4: LPAREN
+Line 4: ID -> x
+Line 4: LT
+Line 4: ID -> y
+Line 4: RPAREN
+Line 4: LBRACE
+Line 5: DRUCKE
+Line 5: LPAREN
+Line 5: ID -> x
+Line 5: RPAREN
+Line 5: SEMICOLON
+Line 6: RBRACE
+Line 6: SONST
+Line 6: LBRACE
+Line 7: DRUCKE
+Line 7: LPAREN
+Line 7: ID -> y
+Line 7: RPAREN
+Line 7: SEMICOLON
+Line 8: RBRACE
+Line 9: SOLANGE
+Line 9: LPAREN
+Line 9: ID -> x
+Line 9: LT
+Line 9: NUMBER -> 15
+Line 9: RPAREN
+Line 9: LBRACE
+Line 10: ID -> x
+Line 10: ASSIGN
+Line 10: ID -> x
+Line 10: PLUS
+Line 10: NUMBER -> 1
+Line 10: SEMICOLON
+Line 11: RBRACE
+Line 12: RBRACE
+Syntax analysis successful
